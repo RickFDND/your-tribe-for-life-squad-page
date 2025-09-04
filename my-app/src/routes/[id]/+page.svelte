@@ -4,11 +4,11 @@
     const member = data.member
 </script>
 
-
+<img class="logo" src="src/lib/assets/logo-fdnd.svg">
 
 <section class="details">
     <h1>{member.name}</h1>
-    <img src="{member.avatar}" alt="{member.avatar || 'Avatar Unknown'}">
+    <img class="student" src="{member.avatar}" alt="{member.avatar || 'Avatar Unknown'}">
     <h2>Favorite Hobby: {member.fav_hobby || 'Hobby Unknown'}</h2>
     <h2>Birthdate: {member.birthdate || 'Birthdate Unknown'}</h2>
 </section>  
@@ -18,6 +18,12 @@
 </a>
 
 <style>
+
+    .logo {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
 
     .details {
         display: flex;
@@ -64,7 +70,7 @@
         }
     }
 
-    img {
+    .student {
         width: 300px;
         height: 300px;
         background-color: white;
