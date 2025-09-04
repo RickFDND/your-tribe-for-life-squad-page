@@ -156,7 +156,6 @@
         margin-top: 2em;
 
         @media (min-width: 600px) {
-            gap: 1.25rem;  
             gap: 3rem;
         }
     }
@@ -175,6 +174,8 @@
         background-color: #050542;
         border-radius: 10px;
         transition: transform 0.3s;
+
+        &:hover {
             transform: scale(0.97);
         }
 
