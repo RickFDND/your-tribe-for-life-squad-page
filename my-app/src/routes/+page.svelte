@@ -134,8 +134,12 @@
         flex-wrap: wrap;
         margin-top: 2em;
 
+        @media (min-width: 530px) {
+            gap: 1rem;
+        }
+
         @media (min-width: 600px) {
-            gap: 1.25rem;  
+            gap: 3rem;  
         }
     }
 
