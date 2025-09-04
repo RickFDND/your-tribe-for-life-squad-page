@@ -96,7 +96,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 2px solid #66e5bf;
+        border: 3px solid #66e5bf;
         height: 300px;
         width: 250px;
         text-align: center;
