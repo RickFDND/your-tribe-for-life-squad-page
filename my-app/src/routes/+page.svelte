@@ -57,6 +57,11 @@
 
 <h1>Squadpage</h1>
 
+<div class="hero-buttons">
+    <a class="first-btn" href="/squad-2e">Squad 2E</a>
+    <a class="second-btn" href="/squad-2f">Squad 2F</a>
+</div>
+
 <div class="members">
     {#each members as member}
         <a class="members-link" href="/{member.id}">
@@ -70,6 +75,7 @@
 <style>
     :global(body) {
         background-color: #a675f5;
+        font-family: 'Inter', sans-serif;
     }
 
     svg {
@@ -81,7 +87,44 @@
         text-transform: uppercase;
         text-align: center;
         color: #050542;
-        padding-top: 2rem;
+        line-height: 1;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        
+
+        @media (min-width: 385px) {
+            font-size: 3rem; 
+        }
+
+    }
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: .75rem;
+            width: 125px;
+            border-radius: 30px;
+            text-decoration: none;
+        }
+
+        .first-btn {
+            border: 1px solid #66e5bf;
+            background-color: #050542;
+            color: #66e5bf;
+        }
+
+        .second-btn {
+            border: 3px solid #050542;
+            background-color: #66e5bf;
+            color: #050542;
+        }
     }
 
     .members {
@@ -90,6 +133,10 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 2em;
+
+        @media (min-width: 600px) {
+            gap: 1.25rem;  
+        }
     }
 
     .members-link {
