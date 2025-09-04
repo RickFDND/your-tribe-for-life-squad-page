@@ -60,11 +60,10 @@
 <div class="members">
     {#each members as member}
         <a class="members-link" href="/{member.id}">
-            {member.name} - <br /><img
-                src={member.avatar}
-                alt="student avatar"
-            />
-        </a><br />
+            <h2>Student</h2>
+            <img src={member.avatar} alt="student avatar" />
+            <p>{member.name}</p>
+        </a>
     {/each}
 </div>
 
@@ -104,10 +103,13 @@
         margin-bottom: 2rem;
         text-decoration: none;
         color: #66e5bf;
+        background-color: #050542;
+        border-radius: 10px;
 
         img {
-            height: 200px;
-            width: 200px;
+            height: 180px;
+            width: 180px;
+            border-radius: 8px;
         }
     }
 </style>
