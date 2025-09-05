@@ -90,8 +90,11 @@
     }
 
     h1 {
-        color: #050542;
+        font-family: 'Poppins', 'inter', arial;
+        text-transform: uppercase;
         font-size: 28px;
+        color: #050542;
+        margin-top: -10px;
 
         @media (min-width: 500px) {
             font-size: 34px;
@@ -111,8 +114,9 @@
     }
 
     h2 {
-        color: #050542;
+        font-family: 'Poppins', 'inter', arial;
         font-size: 20px;
+        color: #050542;
 
         @media (min-width: 500px) {
             font-size: 24px;
@@ -169,7 +173,7 @@
         &:hover {
             transform: scale(1.03);
         }
-        
+
         &:active {
             transform: translateY(4px);
         }
