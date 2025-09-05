@@ -55,7 +55,7 @@
 
 {@render logo()}
 
-<h1>Squadpage</h1>
+<h1>Squadpage 2025-2026</h1>
 
 <div class="hero-buttons">
     <a class="first-btn" href="/squad-2e">Squad 2E</a>
@@ -81,6 +81,15 @@
     svg {
         height: 50px;
         width: auto;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        &:active {
+            transform: translateY(4px);
+        }
     }
 
     h1 {
@@ -90,12 +99,10 @@
         line-height: 1;
         margin-top: 5rem;
         margin-bottom: 3rem;
-        
 
         @media (min-width: 385px) {
-            font-size: 3rem; 
+            font-size: 3rem;
         }
-
     }
 
     .hero-buttons {
@@ -108,22 +115,35 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: .75rem;
+            padding: 0.75rem;
             width: 125px;
             border-radius: 30px;
             text-decoration: none;
+            transition: transform 0.3s;
+
+            &:hover {
+            transform: translateY(-2px);
+        }
         }
 
         .first-btn {
-            border: 1px solid #66e5bf;
+            border: 3px solid #66e5bf;
             background-color: #050542;
             color: #66e5bf;
+
+            &:active {
+                transform: translateY(2px);
+            }
         }
 
         .second-btn {
             border: 3px solid #050542;
             background-color: #66e5bf;
             color: #050542;
+
+            &:active {
+                transform: translateY(4px);
+            }
         }
     }
 
@@ -156,6 +176,15 @@
         color: #66e5bf;
         background-color: #050542;
         border-radius: 10px;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(0.97);
+        }
+
+        &:active {
+            transform: translateY(4px);
+        }
 
         img {
             height: 180px;
