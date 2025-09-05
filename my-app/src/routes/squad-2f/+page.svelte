@@ -70,7 +70,7 @@
 <style>
     :global(body) {
         background-color: #a675f5;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Poppins', 'inter', arial;
     }
 
     svg {
