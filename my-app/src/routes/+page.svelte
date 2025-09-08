@@ -2,6 +2,10 @@
     let { data } = $props();
 
     const members = data.members;
+
+   const member = data.member;
+
+    
 </script>
 
 {#snippet logo()}
@@ -71,6 +75,15 @@
         </a>
     {/each}
 </div>
+
+
+ {#each member as m}
+      <img
+        src={`https://fdnd.directus.app/assets/${m.mugshot}?w=50&h=50&fit=cover`}
+        alt={m.name}
+        width="200" height="auto"
+      />
+{/each}
 
 <style>
     :global(body) {
