@@ -55,18 +55,22 @@
 
 {@render logo()}
 
-<h1>Squadpage 2025-2026</h1>
+<h1 class="title animation-fade-in--up" style="--delay: 0.1s">Squadpage 2025-2026</h1>
 
 <div class="hero-buttons">
-    <a class="first-btn" href="/squad-2e">Squad 2E</a>
-    <a class="second-btn" href="/squad-2f">Squad 2F</a>
+    <a class="first-btn animation-fade-in--up" style="--delay: 0.3s" href="/squad-2e">Squad 2E</a>
+    <a class="second-btn animation-fade-in--up" style="--delay: 0.3s" href="/squad-2f">Squad 2F</a>
 </div>
 
 <div class="members">
     {#each members as member}
-        <a class="members-link" href="/{member.id}">
+        <a class="members-link animation-fade-in--up" style="--delay: 0.5s" href="/{member.id}">
             <h2>Student</h2>
-            <img style="--vt-merge: member-card-{member.id};" src={member.avatar} alt="student avatar"/>
+            <img
+                style="--vt-merge: member-card-{member.id};"
+                src={member.avatar}
+                alt="student avatar"
+            />
             <p>{member.name}</p>
         </a>
     {/each}
@@ -75,7 +79,7 @@
 <style>
     :global(body) {
         background-color: #a675f5;
-        font-family: 'Poppins', 'inter', arial;
+        font-family: "Poppins", "inter", arial;
     }
 
     svg {
@@ -92,7 +96,7 @@
         }
     }
 
-    h1 {
+    .title {
         text-transform: uppercase;
         text-align: center;
         color: #050542;
@@ -122,8 +126,8 @@
             transition: transform 0.3s;
 
             &:hover {
-            transform: translateY(-2px);
-        }
+                transform: translateY(-2px);
+            }
         }
 
         .first-btn {
@@ -155,14 +159,13 @@
         margin-top: 2em;
         view-transition-class: member-card;
         view-transition-name: var(--vt-merge);
-        
 
         @media (min-width: 530px) {
             gap: 1rem;
         }
 
         @media (min-width: 600px) {
-            gap: 3rem;  
+            gap: 3rem;
         }
     }
 
@@ -194,6 +197,21 @@
             width: 180px;
             border-radius: 8px;
             view-transition-name: var(--vt-merge);
+        }
+    }
+
+    .animation-fade-in--up {
+        @media (prefers-reduced-motion: no-preference) {
+            transform: translateY(100px);
+            opacity: 0;
+            animation: fade-in-translate 0.5s var(--delay, 0s) ease-out forwards;
+        }
+    }
+
+    @keyframes fade-in-translate {
+        to {
+            transform: translateY(0);
+            opacity: 1;
         }
     }
 </style>
