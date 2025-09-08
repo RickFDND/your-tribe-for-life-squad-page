@@ -57,7 +57,7 @@
 
 <section class="details">
     <h1>{member.name}</h1>
-    <img class="student" src="{member.avatar}" alt="{member.avatar || 'Avatar Unknown'}">
+    <img class="student" style="--vt-merge: member-card-{member.id}" src="{member.avatar}" alt="{member.avatar || 'Avatar Unknown'}">
     <h2>Favorite Hobby: {member.fav_hobby || 'Hobby Unknown'}</h2>
     <h2>Birthdate: {member.birthdate || 'Birthdate Unknown'}</h2>
 </section>  
@@ -142,6 +142,7 @@
         object-fit: cover;
         border: 3px solid #050542;
         border-radius: 10px;
+        view-transition-name: var(--vt-merge);
 
         @media (min-width: 500px) {
             height: 400px;

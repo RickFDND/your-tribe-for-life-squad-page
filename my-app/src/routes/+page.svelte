@@ -70,7 +70,7 @@
     {#each members as member}
         <a class="members-link" href="/{member.id}">
             <h2>Student</h2>
-            <img src={member.avatar} alt="student avatar" />
+            <img style="--vt-merge: member-card-{member.id};" src={member.avatar} alt="student avatar"/>
             <p>{member.name}</p>
         </a>
     {/each}
@@ -166,6 +166,9 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 2em;
+        view-transition-class: member-card;
+        view-transition-name: var(--vt-merge);
+        
 
         @media (min-width: 530px) {
             gap: 1rem;
@@ -203,6 +206,7 @@
             height: 180px;
             width: 180px;
             border-radius: 8px;
+            view-transition-name: var(--vt-merge);
         }
     }
 </style>

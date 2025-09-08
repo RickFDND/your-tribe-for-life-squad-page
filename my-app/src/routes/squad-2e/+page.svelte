@@ -61,7 +61,7 @@
     {#each members as member}
         <a class="members-link" href="/{member.id}">
             <h2>Student</h2>
-            <img src={member.avatar} alt="student avatar" />
+            <img src={member.avatar} alt="student avatar"/>
             <p>{member.name}</p>
         </a>
     {/each}
