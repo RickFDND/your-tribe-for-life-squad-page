@@ -62,11 +62,11 @@
     <a class="second-btn" href="/squad-2f">Squad 2F</a>
 </div>
 
-<div class="members" style="--vt-merge: member-card;">
+<div class="members">
     {#each members as member}
         <a class="members-link" href="/{member.id}">
             <h2>Student</h2>
-            <img src={member.avatar} alt="student avatar"/>
+            <img style="--vt-merge: member-card-{member.id};" src={member.avatar} alt="student avatar"/>
             <p>{member.name}</p>
         </a>
     {/each}
@@ -193,6 +193,7 @@
             height: 180px;
             width: 180px;
             border-radius: 8px;
+            view-transition-name: var(--vt-merge);
         }
     }
 </style>
