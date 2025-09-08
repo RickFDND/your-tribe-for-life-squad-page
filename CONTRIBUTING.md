@@ -1,4 +1,14 @@
 # Afspraken over samenwerking
+
+## Code conventies
+### Classnames
+- View transitions class beginnen met 'vt' daarna direct de transitions benoemen. (voorbeeld: vt-fade). Voor complexere view-transitions (voorbeeld: vt-fade-up).
+
+- Gewone animaties class beginnen met animation. (voorbeeld: animation-ease-in). Voor complexere animaties (voorbeeld: animation-ease-out-down).
+
+
+
+
 ## Team Canvas
 <img width="1248" height="616" alt="Schermafbeelding 2025-09-01 152909" src="https://github.com/user-attachments/assets/32a9d927-c4a5-41ba-a6e0-1d93d57977a0" />
 
