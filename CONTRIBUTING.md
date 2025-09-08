@@ -56,3 +56,6 @@ zwakke punten: complexe javascript
 1. hoe zorg ik ervoor dat ik de basis van sveltekit snel en gemakkelijk ga leren?
 2. hoe kan ik zorgen dat ik mijzelf beter maak in coderen met behulp van tools?
 3. hoe word ik nog beter in een goede gestructureerde  planning maken?
+
+
+# Afspraken over naamgeving Animaties & View Transitions
