@@ -168,7 +168,7 @@
         flex-direction: column;
         align-items: center;
         border: 3px solid #66e5bf;
-        height: 300px;
+        height: 320px;
         width: 250px;
         text-align: center;
         margin-bottom: 2rem;
