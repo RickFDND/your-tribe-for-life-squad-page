@@ -4,13 +4,13 @@
 Een overzichtelijke en centrale squad page waar studenten en docenten eenvoudig informatie op kunnen halen.
 
 ### User story (home pagina) 
-Als gebruiker wil ik een lijst van alle studenten en docenten zodat ik kan zien wie er in mijn jaar zitten.
+Als FDND'er wil ik een lijst van alle studenten en docenten zodat ik kan zien wie er in mijn jaar zitten.
 
 ### User story (klassen pagina)
-Als gebruiker wil ik een lijst van alle studenten en docenten zodat ik kan zien wie er bij me in de klas zitten.
+Als FDND'er wil ik een lijst van alle studenten en docenten zodat ik kan zien wie er bij me in de klas zitten.
 
 ### User story (detail pagina)
-Als gebruiker wil ik extra informatie van studenten en docenten kunnen zien zodat ik ze beter kan leren kennen.
+Als FDND'er wil ik extra informatie van studenten en docenten kunnen zien zodat ik ze beter kan leren kennen.
 
 
 ## Code conventies
