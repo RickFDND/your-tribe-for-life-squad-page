@@ -148,11 +148,6 @@
             height: 400px;
             width: 400px;
         }
-
-        @media (min-width: 834px) {
-            height: 500px;
-            width: 500px;
-        }
     }
 
 
