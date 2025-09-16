@@ -28,7 +28,7 @@ To create a production version of your app:
 
 You can preview the production build with `npm run preview`.
 
-To deploy your app, you may need to install an <a target=_blank href="https://svelte.dev/docs/kit/adapters">adapter</a> for your target environment.
+To deploy your app, you may need to install an <a target="_blank" href="https://svelte.dev/docs/kit/adapters">adapter</a> for your target environment.
 
 ## Figma Design:
 https://www.figma.com/design/tOKwhcJA01KYY9lhTsJdB5/Team-Canvas-KRR?node-id=0-1&t=F0RA0wmzfvjA6W5i-1
