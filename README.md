@@ -8,10 +8,10 @@ Eén iemand in het team _Forked_ deze leertaak en nodigt de andere leden uit op 
 If you're seeing this, you've probably already done this step. Congrats!
 
 ### create a new project in the current directory
-npx sv create
+`npx sv create`
 
 ### create a new project in my-app
-npx sv create my-app
+`npx sv create my-app`
 
 ## Developing
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
