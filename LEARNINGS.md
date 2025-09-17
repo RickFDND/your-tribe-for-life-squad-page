@@ -34,6 +34,6 @@ We hebben geen persoonlijke tips, maar wel voor wij als groep. We zouden volgend
 Wij hebben met zijn alle dezelfde mening hierover, volgende keer is het namelijk slim om goed eerst na te denken over code-conventies en issue benaming voor de optimale samenwerking. Dit bedachten wij namelijk tijdens dit project terwijl wij al bezig waren.
 
 4. Waar ben je trots op?
-- Renzo:
+- Renzo: Ik ben heel erg trots op het feit dat we ons design na hebben kunnen bouwen, ik ben ook trots op onze loading animaties.
 - Rick: Ik ben trots op het mooie design van de studentenkaartjes. Ook ben ik trots op de view transitions die wij in de workshop op school gemaakt hebben.
 - Kyan:
