@@ -57,15 +57,17 @@
 
 <h1>Squad 2E</h1>
 
-<div class="members">
+<ul class="members">
     {#each members as member}
+    <li>
         <a class="members-link" href="/{member.id}">
             <h2>Student</h2>
             <img src={member.avatar} alt="student avatar"/>
             <p>{member.name}</p>
         </a>
+    </li>
     {/each}
-</div>
+</ul>
 
 <style>
     :global(body) {
@@ -99,6 +101,7 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 2em;
+        padding: 0;
 
         @media (min-width: 530px) {
             gap: 1rem;
@@ -106,6 +109,10 @@
 
         @media (min-width: 600px) {
             gap: 3rem;  
+        }
+
+        li {
+            list-style-type: none;
         }
     }
 

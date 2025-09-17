@@ -19,8 +19,9 @@
     <a class="second-btn animation-fade-in--up" style="--delay: 0.3s" href="/squad-2f">Squad 2F</a>
 </div>
 
-<div class="members">
+<ul class="members">
     {#each members as member}
+    <li>
         <a class="members-link animation-fade-in--up" style="--delay: 0.5s" href="/{member.id}">
             <h2>Student</h2>
             <img
@@ -30,8 +31,9 @@
             />
             <p>{member.name}</p>
         </a>
+    </li>
     {/each}
-</div>
+</ul>
 
 
  {#each member as m}
@@ -109,6 +111,7 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 2em;
+        padding: 0;
         view-transition-class: member-card;
         view-transition-name: var(--vt-merge);
 
@@ -118,6 +121,10 @@
 
         @media (min-width: 600px) {
             gap: 3rem;
+        }
+
+        li {
+            list-style-type: none;
         }
     }
 
