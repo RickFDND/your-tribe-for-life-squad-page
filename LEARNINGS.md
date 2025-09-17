@@ -10,6 +10,9 @@
 4. De conventies die we hebben gebruikt komen ongeveer overeen met die van de FDND Agency echter hebben we een paar keer een afkorting in de class names gebruikt. Dat is misschien minder handig geweest.
 
 ### Individuele feedback:
+
+1. Hoe heb je mij als teamlid ervaren
+
 #### Rick:
 - Renzo: Het was erg aangenaam om met Rick samengewerkt te hebben. Rick zorgt ervoor dat je je op je gemak voelt, dis is een hele fijne eigenschap.
 - Kyan: Rick is een goede teamplayer, hij kan goed overleggen en houdt zich aan de gemaakte afspraken binnen het team. Ook denkt hij goed oplossingsgericht naar problemen.
