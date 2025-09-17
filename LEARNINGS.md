@@ -11,7 +11,7 @@
 
 ### Individuele feedback:
 #### Rick:
-- Renzo:
+- Renzo: Het was erg aangenaam om met Rick samengewerkt te hebben. Rick zorgt ervoor dat je je op je gemak voelt, dis is een hele fijne eigenschap.
 - Kyan:
 - 
 #### Renzo:
@@ -20,4 +20,4 @@
 
 #### Kyan:
 - Rick: Kyan heeft prima gewerkt in het team. Hij heeft zijn taken uitgevoerd die we besproken hadden. Als we een probleem hadden heeft hij gezamelijk goed mee geholpen met het bedenken van een oplossing.
-- Renzo: 
+- Renzo: Het was fijn om samen te werken met Kyan, hij denkt altijd goed mee en heeft een pro-actieve houding, dit is fijn om mee te werken.
