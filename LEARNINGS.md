@@ -29,3 +29,6 @@
 
 We hebben geen persoonlijke tips, maar wel voor wij als groep. We zouden volgende keer minder grappen maken en beter direcht kunnen beginnen met de opdrachten.
 
+3. Wat zou ik moeten veranderen om prettiger samen te werken
+
+Wij hebben met zijn alle dezelfde mening hierover, volgende keer is het namelijk slim om goed eerst na te denken over code-conventies en issue benaming voor de optimale samenwerking. Dit bedachten wij namelijk tijdens dit project terwijl wij al bezig waren.
