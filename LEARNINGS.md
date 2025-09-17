@@ -26,12 +26,5 @@
 - Renzo: Het was fijn om samen te werken met Kyan, hij denkt altijd goed mee en heeft een pro-actieve houding, dit is fijn om mee te werken.
 
 2. Welke tips heb je voor mij?
-#### Rick:
-- Renzo:
-- Kyan:
+We hebben geen persoonlijke tips, maar wel voor wij als groep. We zouden volgende keer minder grappen maken en beter direcht kunnen beginnen met de opdrachten.
 
-#### Renzo:
-- Rick: 
-
-#### Kyan:
-- Rick: 
