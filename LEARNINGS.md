@@ -36,4 +36,4 @@ Wij hebben met zijn alle dezelfde mening hierover, volgende keer is het namelijk
 4. Waar ben je trots op?
 - Renzo: Ik ben heel erg trots op het feit dat we ons design na hebben kunnen bouwen, ik ben ook trots op onze loading animaties.
 - Rick: Ik ben trots op het mooie design van de studentenkaartjes. Ook ben ik trots op de view transitions die wij in de workshop op school gemaakt hebben.
-- Kyan:
+- Kyan: Ik ben heel erg trots wij het snel overeen waren over het design en dat wij het gewenste resultaat hebben kunnen realiseren, ik vind vooral de view-transitions & animaties erg gaaf.
