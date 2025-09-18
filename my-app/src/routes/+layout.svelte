@@ -1,32 +1,32 @@
 <script>
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.svg'; 
 
 	let { children } = $props();
 
 	import { onNavigate } from '$app/navigation';
 
-	onNavigate((navigation) => {
-	if (!document.startViewTransition) return;
-	let viewTransitionType = 'page-change';
-	if (navigation.type === 'goto') {
+	onNavigate((navigation) => { // View Transition API
+	if (!document.startViewTransition) return; // Controleer of de View Transition API wordt ondersteund
+	let viewTransitionType = 'page-change'; 
+	if (navigation.type === 'goto') { // Alleen bij 'goto' navigaties
 		return;
 	}
 	return new Promise((resolve) => {
-		document.startViewTransition({
+		document.startViewTransition({ // Start de view transition
 			update: async () => {
 				resolve();
-				await navigation.complete;
+				await navigation.complete; // Wacht tot de navigatie is voltooid
 			},
-			types: [viewTransitionType]
+			types: [viewTransitionType] // Specificeer het type overgang
 		});
 	});
 });
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={favicon} /> <!-- Voeg de favicon toe aan de head van het document -->
 </svelte:head>
 
-{@render children?.()}
+{@render children?.()} <!-- Render de kinderen van de layout, wat de inhoud van de pagina zal zijn -->
 
 

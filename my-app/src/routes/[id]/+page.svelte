@@ -57,9 +57,9 @@
 
 <section class="details">
     <h1>{member.name}</h1>
-    <img class="student" style="--vt-merge: member-card-{member.id}" src="{member.avatar}" alt="{member.avatar || 'Avatar Unknown'}">
-    <h2>Favorite Hobby: {member.fav_hobby || 'Hobby Unknown'}</h2>
-    <h2>Birthdate: {member.birthdate || 'Birthdate Unknown'}</h2>
+    <img class="student" style="--vt-merge: member-card-{member.id}" src="{member.avatar}" alt="{member.avatar || 'Avatar Unknown'}"> <!--Afbeelding van het lid met view transition naam voor animatie -->
+    <h2>Favorite Hobby: {member.fav_hobby || 'Hobby Unknown'}</h2> 
+    <h2>Birthdate: {member.birthdate || 'Birthdate Unknown'}</h2> 
 </section>  
 
 <a class="return" href="/">
@@ -78,7 +78,7 @@
         }
 
         &:active {
-            transform: translateY(4px);
+            transform: translateY(4px); /* Druk de knop naar beneden bij klikken */
         }
     }
 
@@ -131,7 +131,7 @@
         }
     }
 
-    h2:nth-of-type(1) {
+    h2:nth-of-type(1) { /* Eerste h2 (favoriete hobby) */
         margin-bottom: -10px;
     }
 
@@ -142,7 +142,7 @@
         object-fit: cover;
         border: 3px solid #050542;
         border-radius: 10px;
-        view-transition-name: var(--vt-merge);
+        view-transition-name: var(--vt-merge); /* Naam voor view transition animatie */
 
         @media (min-width: 500px) {
             height: 400px;
