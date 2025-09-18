@@ -43,11 +43,6 @@
 {/each}
 
 <style>
-    :global(body) {
-        background-color: #a675f5;
-        font-family: "Poppins", "inter", arial;
-    }
-
     .title {
         text-transform: uppercase;
         text-align: center;
