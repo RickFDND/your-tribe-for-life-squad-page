@@ -5,9 +5,7 @@
 
    const member = data.member;
 
-   import { Logo } from '$lib';
-
-    
+   import { Logo } from '$lib';    
 </script>
 
 <Logo/>
