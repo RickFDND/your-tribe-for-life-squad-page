@@ -33,13 +33,17 @@ To deploy your app, you may need to install an <a target="_blank" href="https://
 
 ## Omschrijving van het project
 
+Het project betreft de squad page van jaar 2 cohort 2025/2026. Dit project is gebouwd met Sveltekit, NodeJS en Directus. De squad page laat alle studenten uit deze cohort zien en heeft de mogelijkheid om te filteren op squad (Squad 2E/ Squad 2F). Wanneer er op een student geklikt wordt, wordt je doorverwezen naar een eigen pagina met leuke en interessante weetjes over de desbetreffende student. Op deze pagina kan er ook weer terug genavigeerd worden naar de homepagina om andere studenten te bekijken.
+
+#### Figma Design:
+https://www.figma.com/design/tOKwhcJA01KYY9lhTsJdB5/Team-Canvas-KRR?node-id=0-1&t=F0RA0wmzfvjA6W5i-1
+
 ## Ontwerpkeuzes uitleggen
 
 ## Functionaliteiten uitleg
 
 
-## Figma Design:
-https://www.figma.com/design/tOKwhcJA01KYY9lhTsJdB5/Team-Canvas-KRR?node-id=0-1&t=F0RA0wmzfvjA6W5i-1
+
 
 ## Licentie
 
