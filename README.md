@@ -79,8 +79,19 @@ Zoals te zien geven de view-transitions een leuk proffesioneel effect, ook zodra
 
 
 ## Functionaliteiten uitleg
+Deze squadpage is gemaakt om onze klas op een overzichtelijke en toegankelijke manier te presenteren. Bezoekers krijgen een beeld van wie wij zijn. De site is gebruiksvriendelijk opgezet en werkt zowel op desktop als mobiel. Hieronder een overzicht van de belangrijkste functionaliteiten:
 
+### Navigatie
+De website bevat 2 buttons waarmee je naar verschillende squads kunt navigeren. Ook kan je klikken op een kaartje van een student of squad-leader om naar een aparte pagina tegaan waar je meer informatie kan vinden over de desbetreffende persoon. 
 
+### Squad-pagina's
+Elke squad bevat een eigen pagina met een overzicht van studenten en squad-leaders. Op deze kaartjes staan de naam en foto van de desbetreffende persoon. 
+
+### Detail-pagina
+Door op een studentenkaartje te klikken wordt je doorgestuurd naar een persoonlijke pagina van de aangeklikte student. Hier staat meer informatie over deze persoon zoals de hobbies of geboortedatum. 
+
+### Responsiveness
+De website schaalt automatisch mee met verschillende apparaten en schermformaten zodat de inhoud altijd goed leesbaar en overzichtelijk blijft.
 
 
 ## Licentie
